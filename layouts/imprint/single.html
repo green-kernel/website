@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <div class="bg-shape bg-shape-a"></div>
+  <div class="bg-shape bg-shape-b"></div>
+  <div class="site-shell">
+    <header class="top-nav">
+      <a class="brand" href="{{ "/" | relURL }}">Green Kernel</a>
+      <nav>
+        <a href="{{ "/" | relURL }}">Home</a>
+        <a href="https://github.com/{{ .Site.Params.org }}">GitHub</a>
+      </nav>
+    </header>
+
+    <main class="imprint-page">
+      <section class="imprint-card reveal">
+        <p class="eyebrow">Legal</p>
+        <h1>{{ .Title }}</h1>
+        <p class="imprint-line">Geerd-Dietger Hoffmann</p>
+        <p class="imprint-line">
+          <a href="mailto:didi+procpower@green-coding.io">didi+procpower@green-coding.io</a>
+        </p>
+        <p class="imprint-note">
+          Everything is as is and no guaranty is given. It should not be used in production
+          and is a development protoype.
+        </p>
+      </section>
+    </main>
+  </div>
+{{ end }}
+
