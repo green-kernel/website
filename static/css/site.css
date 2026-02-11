@@ -65,6 +65,42 @@ body {
   padding: 1.5rem 1.1rem 2.8rem;
 }
 
+.github-corner-badge {
+  position: fixed;
+  top: 0.95rem;
+  right: 0.95rem;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+  color: #f7fffd;
+  background: linear-gradient(145deg, #063d49 0%, #0b6f64 100%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  padding: 0.42rem 0.7rem 0.42rem 0.58rem;
+  box-shadow: 0 9px 22px rgba(5, 64, 72, 0.34);
+  backdrop-filter: blur(6px);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.github-corner-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(5, 64, 72, 0.38);
+}
+
+.github-corner-badge svg {
+  width: 16px;
+  height: 16px;
+  fill: currentcolor;
+}
+
+.github-corner-badge span {
+  font-size: 0.79rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
 .top-nav {
   backdrop-filter: blur(10px);
   display: flex;
@@ -577,6 +613,16 @@ h1 {
 }
 
 @media (max-width: 680px) {
+  .github-corner-badge {
+    top: 0.65rem;
+    right: 0.65rem;
+    padding: 0.37rem 0.56rem 0.37rem 0.5rem;
+  }
+
+  .github-corner-badge span {
+    font-size: 0.72rem;
+  }
+
   .top-nav {
     align-items: flex-start;
     flex-direction: column;
