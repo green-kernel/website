@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Green Kernel favicon</title>
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b8768" />
+      <stop offset="1" stop-color="#056a75" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+  <circle cx="47" cy="17" r="10" fill="#ffffff" opacity="0.08" />
+  <path
+    d="M25 19v26"
+    fill="none"
+    stroke="#f7fffd"
+    stroke-linecap="round"
+    stroke-width="7"
+  />
+  <path
+    d="M29 35l13 12"
+    fill="none"
+    stroke="#f7fffd"
+    stroke-linecap="round"
+    stroke-width="7"
+  />
+  <path
+    d="M29 30c2.1-8.8 9.1-14 20-14c-0.3 9.6-6.3 17.3-16.4 19.1C29.6 34.4 28.4 32.5 29 30z"
+    fill="#8ce6d4"
+  />
+  <path
+    d="M32.5 31.9c3.7-4.6 8.4-8.1 14.1-10.5"
+    fill="none"
+    opacity="0.4"
+    stroke="#0f4b56"
+    stroke-linecap="round"
+    stroke-width="2.4"
+  />
+</svg>

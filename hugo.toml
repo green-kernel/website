@@ -6,5 +6,4 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
 [params]
   org = "green-kernel"
   tagline = "Bringing sustainability to the Linux ecosystem"
-  subtitle = "Measure power where work actually happens: by process and cgroup."
 

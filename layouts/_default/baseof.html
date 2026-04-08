@@ -8,14 +8,18 @@
       name="description"
       content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}"
     />
+    <meta name="theme-color" content="#0b6f64" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any" />
+    <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml" />
+    <link rel="icon" href="{{ "favicon-32x32.png" | relURL }}" type="image/png" sizes="32x32" />
+    <link rel="icon" href="{{ "favicon-16x16.png" | relURL }}" type="image/png" sizes="16x16" />
     <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" />
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/site.css" | relURL }}" />
   </head>
   <body>
