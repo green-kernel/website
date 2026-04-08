@@ -745,6 +745,18 @@ h1 {
   font-weight: 500;
 }
 
+.funder-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.funder-meta {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(17, 36, 43, 0.72);
+}
+
 .imprint-page {
   margin-top: 2rem;
 }
